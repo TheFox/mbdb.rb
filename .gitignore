@@ -1,0 +1,6 @@
+/.bundle/
+.setup
+CHANGELOG-*.txt
+/coverage/
+Gemfile.lock
+/releases/
