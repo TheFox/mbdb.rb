@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
 	spec.author        = 'Christian Mayer'
 	spec.email         = 'christian@fox21.at'
 	
-	spec.summary       = %q{Extended Ruby Classes}
-	spec.description   = %q{This gem extents some of the basic Ruby classes by missing functionalities.}
+	spec.summary       = %q{Read .mbdb files with Ruby.}
+	spec.description   = %q{The .mbdb file extension is associated with the Apple iTunes, the standard manage application for iOS devices. A .mbdb file contains a list of files, that are stored in the backup of the iOS device. The MBDB database was introduced in iTunes 9.2.}
 	spec.homepage      = TheFox::MBDB::HOMEPAGE
 	spec.license       = 'GPL-3.0'
 	
