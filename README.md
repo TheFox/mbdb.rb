@@ -13,7 +13,7 @@ The preferred method of installation is via RubyGems.org:
 
 or via `Gemfile`:
 
-	gem 'mbdb', '~>0.0'
+	gem 'mbdb', '~>0.1'
 
 Use it in your sources:
 
