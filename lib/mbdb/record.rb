@@ -9,21 +9,13 @@ module TheFox
 			
 			attr_reader :domain
 			attr_accessor :path
-			# attr_accessor :link_target
-			# attr_accessor :data_hash
-			# attr_accessor :encryption_key
 			attr_accessor :file_size
-			# attr_accessor :file_name
 			
 			def initialize
 				@domain_name = ''
 				@domain = nil
 				@path = ''
-				# @link_target = ''
-				# @data_hash = ''
-				# @encryption_key = ''
 				@file_size = 0
-				# @file_name = ''
 			end
 			
 			def domain=(domain)
