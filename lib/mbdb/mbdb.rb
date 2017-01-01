@@ -19,11 +19,11 @@ module TheFox
 				@records = Array.new
 				
 				unless file_path.nil?
-					readx(file_path)
+					read(file_path)
 				end
 			end
 			
-			def readx(file_path = nil)
+			def read(file_path = nil)
 				if file_path.nil?
 					file_path = @file_path
 				end
