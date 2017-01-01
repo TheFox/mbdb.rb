@@ -28,10 +28,15 @@ module TheFox
 					file_path = @file_path
 				end
 				
-				return false unless file_path.exist?
+				unless file_path.exist?
+					raise "File does not exist: #{file_path}"
+				end
 				
 				@file_h = File.open(file_path, 'rb')
-				@file_h.read(6) # header
+				header = @file_h.read(6)
+				if header != "mbdb\x05\x00"
+					raise "Bad MBDB signature"
+				end
 				@offset += 6
 				
 				loops = 0
