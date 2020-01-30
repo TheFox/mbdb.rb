@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 	spec.summary       = %q{Read .mbdb files with Ruby.}
 	spec.description   = %q{The .mbdb file extension is associated with the Apple iTunes, the standard manage application for iOS devices. A .mbdb file contains a list of files, that are stored in the backup of the iOS device. The MBDB database was introduced in iTunes 9.2.}
 	spec.homepage      = TheFox::MBDB::HOMEPAGE
-	spec.license       = 'GPL-3.0'
+	spec.license       = 'MIT'
 	
 	spec.files         = `git ls-files -z`.split("\x0").reject{ |f| f.match(%r{^(test|spec|features)/}) }
 	spec.require_paths = ['lib']
