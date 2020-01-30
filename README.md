@@ -36,7 +36,6 @@ require 'mbdb'
 ## Project Links
 
 - [Gem](https://rubygems.org/gems/mbdb)
-- [Travis CI Repository](https://travis-ci.org/TheFox/mbdb.rb)
 
 ## License
 
